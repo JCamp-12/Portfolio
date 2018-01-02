@@ -1,0 +1,17 @@
+{
+  "name": "jresumeviewer",
+  "version": "1.0.0",
+  "description": "portfolio start",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "jason chandler campbell",
+  "license": "ISC",
+  "dependencies": {
+    "create-react-app": "^1.4.3"
+  }
+}
