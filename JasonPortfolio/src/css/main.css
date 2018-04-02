@@ -104,6 +104,32 @@ body {
 .item-2,
 .item-3 {
   min-height: 60vh;
+  background: url(../img/giphy.gif);
+}
+.no-padding{
+  padding: 0;
+}
+
+.item-1{
+  /* background: url(../img/giphy.gif); */
+  /* background-position: center; */
+  /* background-size: cover; */
+  /* background-attachment: fixed; */
+  /* background-repeat: no-repeat; */
+}
+
+.banner-btn {
+  color: #1ffffa;
+  border: 2px solid #1ffffa;
+  transition: all 1s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.banner-btn:hover {
+  color: #2a9134;
+  background: white;
+  transform: translateY(-7px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
 }
 
 
