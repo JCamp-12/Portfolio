@@ -1,6 +1,24 @@
 body {
-  background: #add8e6;
+  background: cornsilk;
   font-family: 'Merriweather', serif;
+}
+
+.icon-top{
+  background: #2a9134
+}
+
+.icon-top a{
+  color: white;
+    font-size: 25px;
+    transition: color 1s ease-in-out;
+}
+
+.icon-top a:hover {
+  color: gray;
+}
+
+.icon-top h5{
+  color: white;
 }
 
 /* <body>
