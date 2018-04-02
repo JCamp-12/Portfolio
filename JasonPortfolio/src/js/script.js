@@ -20,7 +20,7 @@ $(document).ready(function(){
     link.preventDefault();
     
     let target = $(this).attr('href');
-    $('html, body').animate({
+    $('html, body').stop().animate({
       scrollTop: $(target).offset().top
     }, 3000);
   })
